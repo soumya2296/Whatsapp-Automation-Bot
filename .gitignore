@@ -1,0 +1,11 @@
+# Ignore local environment variable files containing API keys
+.env
+.env.local
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore n8n local data or logs if running via Docker
+node_modules/
+logs/
